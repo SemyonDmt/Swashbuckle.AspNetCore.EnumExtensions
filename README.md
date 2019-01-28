@@ -1,7 +1,7 @@
 # Swashbuckle.AspNetCore.EnumExtensions
 Enum extension for swagger model
 
-Example configyration
+Example configuration
 
 ```csharp
 services.AddSwaggerGen(options =>
