@@ -1,13 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.9.0</Version>
+    <Version>1.0.0</Version>
     <Authors>Dmitrienko Semen</Authors>
-    <Product />
     <Description>Enum extension for swagger model</Description>
     <Copyright></Copyright>
+    <PackageId>Swashbuckle.AspNetCore.EnumExtensions</PackageId>
+    <PackageTags>Swagger SwaggerUi Documentation Discovery Help WebApi AspNet AspNetWebApi Docs SelfHost</PackageTags>
+    <PackageProjectUrl>https://github.com/SemenDmt/Swashbuckle.AspNetCore.EnumExtensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>H:\Project\Swashbuckle.AspNetCore.EnumExtensions\src\Swashbuckle.AspNetCore.EnumExtensions\Swashbuckle.AspNetCore.EnumExtensions.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

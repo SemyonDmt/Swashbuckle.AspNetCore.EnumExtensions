@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swashbuckle.AspNetCore.EnumExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Swashbuckle.AspNetCore.EnumExtensions.EnumDocumentFilter">
+            <summary>
+            Add enum value descriptions to Swagger
+            </summary>
+        </member>
+        <member name="M:Swashbuckle.AspNetCore.EnumExtensions.EnumDocumentFilter.#ctor(System.Xml.XPath.XPathDocument[])">
+            <inheritdoc />
+        </member>
+        <member name="M:Swashbuckle.AspNetCore.EnumExtensions.EnumDocumentFilter.Apply(Swashbuckle.AspNetCore.Swagger.SwaggerDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
